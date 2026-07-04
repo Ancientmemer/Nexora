@@ -50,7 +50,7 @@ ul{
 
 .logo img{
 
-    height:75px;
+    height:85px;
     width:auto;
     display:block;
 
@@ -700,14 +700,4 @@ padding:0 5%;
 .why-card p{
     color:#666;
     line-height:1.8;
-}
-
-@media(max-width:900px){
-
-.logo img{
-
-    height:80px;
-
-}
-
 }
