@@ -708,3 +708,51 @@ padding:0 5%;
     justify-content: center; /* Horizontal center */
     align-items: center;     /* Vertical center */
 }
+
+/* ==========================
+   BACK TO TOP BUTTON
+========================== */
+
+#backToTop{
+
+    position:fixed;
+
+    bottom:100px;
+
+    right:25px;
+
+    width:55px;
+
+    height:55px;
+
+    border:none;
+
+    border-radius:50%;
+
+    background:#D4AF37;
+
+    color:#0B1F3A;
+
+    font-size:24px;
+
+    font-weight:bold;
+
+    cursor:pointer;
+
+    display:none;
+
+    z-index:999;
+
+    transition:.3s;
+
+    box-shadow:0 10px 20px rgba(0,0,0,.25);
+
+}
+
+#backToTop:hover{
+
+    transform:translateY(-5px);
+
+    background:#c89c19;
+
+}
